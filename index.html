@@ -26,16 +26,17 @@
             marquee {
                 background: #a8cfe5;
                 color: #fff;
-                height: 125px;
+                height: 120px;
                 position: fixed;
                 width: 100%;
             }
             marquee div {
-                background: #a8cfe5 url(staircar-big.png) repeat-x;
+                background: #a8cfe5 url(staircar-big.png) 0 20px repeat-x;
                 background-size: 50px auto;
                 font-size: 48px;
                 font-weight: 600;
-                padding-top: 45px;
+                line-height: 1;
+                padding-top: 50px;
                 white-space: nowrap;
             }
             h1 {
@@ -62,7 +63,6 @@
     </head>
     <body>
         <marquee>
-            &nbsp;
             <div>You&rsquo;re invited to the best <em>Arrested Development</em> party ever!</div>
         </marquee>
         <address>
